@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS_LEARN</title>
+    <link rel="icon" type="image/x-icon" href="./assets/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <p>this is the nav</p>
+      </nav>
+
+      <h1>HELLO WORLD!</h1>
+      <video autoplay loop muted>
+        <source src="./assets/video.mp4" type="video/mp4" />
+      </video>
+    </header>
+
+    <main>
+      <div class="flex">
+        <div class="child">
+          <h2>Lorem</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            sapiente perferendis earum minima enim ullam quaerat facilis velit
+            fugiat neque?
+          </p>
+        </div>
+
+        <div class="child">
+          <h2>Lorem</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            sapiente perferendis earum minima enim ullam quaerat facilis velit
+            fugiat neque? Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Repudiandae sapiente perferendis earum minima enim ullam
+            quaerat facilis velit fugiat neque?
+          </p>
+        </div>
+
+        <div class="child">
+          <h2>Lorem</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            sapiente perferendis earum minima enim ullam quaerat facilis velit
+            fugiat neque?
+          </p>
+        </div>
+
+        <div class="child">
+          <h2>Lorem</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            sapiente perferendis earum minima enim ullam quaerat facilis velit
+            fugiat neque? Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Repudiandae sapiente perferendis earum minima enim ullam
+            quaerat facilis velit fugiat neque?Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Repudiandae sapiente perferendis earum
+            minima enim ullam quaerat facilis velit fugiat neque?
+          </p>
+        </div>
+
+        <div class="child">
+          <h2>Lorem</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            sapiente perferendis earum minima enim ullam quaerat facilis velit
+            fugiat neque?
+          </p>
+        </div>
+
+        <div class="child">
+          <h2>Lorem</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            sapiente perferendis earum minima enim ullam quaerat facilis velit
+            fugiat neque?
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      const cards = document.querySelectorAll(".child");
+      cards.forEach((card) => {
+        card.classList.add("fade-in");
+      });
+    </script>
+  </body>
+</html>
